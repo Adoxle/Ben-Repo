@@ -204,3 +204,5 @@ c = OpenAI(api_key="test", base_url="http://localhost:1/v1")
 assert callable(c.chat.completions.create)
 print("[ok] openai client API surface present")
 print("\nALL SMOKE TESTS PASSED")
+
+# Test complete
